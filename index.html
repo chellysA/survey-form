@@ -54,7 +54,7 @@
         </select>
       </div>
       <p>Would you recommend freeCodeCamp to a friend?</p>
-      <div>
+      <div class="radio">
         <input
           id="Definitely"
           type="radio"
@@ -64,11 +64,11 @@
         />
         <label for="Definitely">Definitely</label>
       </div>
-      <div>
+      <div class="radio">
         <input id="Maybe" type="radio" value="Maybe" name="user-recommend" />
         <label for="Maybe">Maybe</label>
       </div>
-      <div>
+      <div class="radio">
         <input
           id="Not-sure"
           type="radio"
@@ -179,8 +179,7 @@
         <label for="Wiki">Wiki</label>
       </div>
       <div class="suggestions">
-        <div class="suggestions">
-         <input
+        <input
           type="checkbox"
           id="Forum"
           name="improved"
@@ -197,6 +196,7 @@
          />
         <label for="Additional Courses">Additional Courses</label>
       </div>
+      <div>
         <p>Any comments or suggestions?</p>
         <textarea
           rows="3"
@@ -206,6 +206,7 @@
           id="comments"
         ></textarea>
       <button type="submit" id="submit">Submit</button>
+    </div>
     </form>
   </body>
 </html>
